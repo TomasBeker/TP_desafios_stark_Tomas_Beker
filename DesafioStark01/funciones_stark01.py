@@ -355,7 +355,7 @@ def esta_en_lista(lista,key)->bool:
 
     Args:
         lista (list): lista de personajes.
-        key (str): La clave de valor deseada.
+        key : La clave de valor deseada.
 
     Returns:
         bool: True si el elemento está en la lista, False en caso contrario.
