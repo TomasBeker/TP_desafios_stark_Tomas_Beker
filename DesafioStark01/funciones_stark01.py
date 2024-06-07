@@ -1,7 +1,7 @@
 from data_stark import *
 import os
 
-def menu_stark_01():
+def menu_stark_01()->str:
   """Menu principal del programa.
 
   Returns:
@@ -73,7 +73,7 @@ def nombre_femenino(lista):
 
   
 #Punto C 01.
-def determinar_mas_alto_masc(lista):
+def determinar_mas_alto_masc(lista)->str:
   """determinar_mas_alto_masc: Recorre la lista para determinar que masculino es el mas alto de la lista. 
 
     Args:
@@ -102,7 +102,7 @@ def determinar_mas_alto_masc(lista):
   return persona_mas_alta_m
 
 #Punto D 01.
-def determinar_mas_alto_fem(lista):
+def determinar_mas_alto_fem(lista)->str:
   """determinar_mas_alto_fem: Recorre la lista para determinar que femenina es la mas alta de la lista. 
 
     Args:
@@ -130,7 +130,7 @@ def determinar_mas_alto_fem(lista):
     
 
 #Punto E 01.
-def determinar_mas_bajo_masc(lista):
+def determinar_mas_bajo_masc(lista)->str:
   """determinar_mas_bajo_masc: Recorre la lista para determinar que Masculino es el mas bajo de la lista.
 
     Args:
@@ -155,7 +155,7 @@ def determinar_mas_bajo_masc(lista):
   return persona_mas_baja_m
 
 #Punto F 01.
-def determinar_mas_baja_fem(lista):
+def determinar_mas_baja_fem(lista)->str:
   """determinar_mas_baja_fem: Recorre la lista para determinar que Femenina es la mas baja de la lista.
 
     Args:
@@ -350,7 +350,7 @@ def determinar_cant_inteligencias(lista):
         contador_sin_inteligencia += 1
 
 
-def esta_en_lista(lista,key):
+def esta_en_lista(lista,key)->bool:
   """esta_en_lista: Verifica si un elemento está presente en una lista.
 
     Args:
